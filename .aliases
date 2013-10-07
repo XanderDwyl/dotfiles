@@ -17,6 +17,15 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
+# Git related aliases
+alias gc="git commit"
+alias gd="g d"
+alias gl="g l"
+alias gs="git status"
+alias gp="git push"
+alias gf="git fetch"
+alias gr="git rebase"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
