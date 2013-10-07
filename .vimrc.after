@@ -15,8 +15,6 @@ set esckeys
 set backspace=indent,eol,start
 " Optimize for fast terminal connections
 set ttyfast
-" Default colorscheme
-color default
 " Add the g flag to search/replace by default
 set gdefault
 " Use UTF-8 without BOM
@@ -113,5 +111,5 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
-# Powerline
+" Powerline
 let g:Powerline_symbols = 'fancy'
