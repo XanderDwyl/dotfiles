@@ -18,6 +18,7 @@ alias h="history"
 alias j="jobs"
 
 # Git related aliases
+alias ga="git add"
 alias gc="git commit"
 alias gd="g d"
 alias gl="g l"
