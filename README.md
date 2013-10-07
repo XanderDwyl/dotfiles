@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+Please check [mathiasbynens](https://github.com/mathiasbynens/dotfiles)' repo and README.
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
