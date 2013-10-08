@@ -14,3 +14,5 @@ cd ~/.janus
 git clone https://github.com/Lokaltog/vim-powerline.git
 # vim-jade
 git clone git://github.com/digitaltoad/vim-jade.git
+# emmet-vim
+git clone https://github.com/mattn/emmet-vim.git
