@@ -109,5 +109,5 @@ function git_info() {
 	echo -e $WHITE$PURPLE$branch$dirty
 }
 
-export PS1="\[${BOLD}${MAGENTA}\]\u\[$WHITE\] at \[$GREEN\]\h \[$WHITE\]in \[$BLUE\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(git_info)\[$WHITE\]\n\[$GREEN\]> \[$RESET\]"
+export PS1="\[${BOLD}${MAGENTA}\]\u\[$RESET\] at \[$GREEN\]\h \[$RESET\]in \[$BLUE\]\w\[$RESET\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(git_info)\[$RESET\]\n\[$GREEN\]> \[$RESET\]"
 export PS2="\[$ORANGE\]→ \[$RESET\]"
