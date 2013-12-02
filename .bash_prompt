@@ -106,8 +106,8 @@ function git_info() {
 	# check if it's dirty (via github.com/sindresorhus/pure)
 	dirty=$(git diff --quiet --ignore-submodules HEAD &>/dev/null; [ $? -eq 1 ]&& echo -e "*")
 
-	echo -e $WHITE$PURPLE$branch$dirty
+	echo -e $branch$dirty" "
 }
 
-export PS1="\[${BOLD}${MAGENTA}\]\u\[$RESET\] at \[$GREEN\]\h \[$RESET\]in \[$BLUE\]\w\[$RESET\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(git_info)\[$RESET\]\n\[$GREEN\]> \[$RESET\]"
+export PS1="\n\[$BLUE\]\w\[$RESET\]\n\$([[ -n \$(git branch 2> /dev/null) ]] && echo \"\[$PURPLE\]⭠ \")\$(git_info)\[$MAGENTA\]>\[$ORANGE\]>\[$GREEN\]>\[$RESET\] "
 export PS2="\[$ORANGE\]→ \[$RESET\]"
