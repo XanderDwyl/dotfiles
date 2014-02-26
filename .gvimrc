@@ -1,9 +1,6 @@
-" Use the Solarized Dark theme
-set background=dark
-colorscheme solarized
-" Use 14pt Monaco
-set guifont=Monaco:h14
-" Don’t blink cursor in normal mode
-set guicursor=n:blinkon0
+" Use the excellent Railscat theme by Jeff Kreeftmeijer (gVim-only)
+colorscheme railscasts
+" Use 14pt Menlo
+set guifont=Menlo:h14
 " Better line-height
 set linespace=8
