@@ -4,3 +4,5 @@ colorscheme xoria256
 set guifont=Courier\ New:h12
 " Better line-height
 set linespace=8
+
+set guioptions -=L
