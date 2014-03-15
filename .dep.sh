@@ -30,8 +30,5 @@ git clone git@github.com:michalliu/sourcebeautify.vim.git
 # Align
 git clone git@github.com:vim-scripts/Align.git
 
-# multi-edit
-git clone git@github.com:hlissner/vim-multiedit.git
-
 # jsruntime
 git clone git@github.com:michalliu/jsruntime.vim.git
