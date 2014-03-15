@@ -1,5 +1,6 @@
 " Enable mouse in all modes
 set mouse=a
+set ttymouse=xterm2
 " Default colorscheme
 color zenburn
 " Make Vim more useful
