@@ -86,7 +86,8 @@ set title
 " Show the (partial) command as it’s being typed
 set showcmd
 " Start scrolling three lines before the horizontal window border
-set scrolloff=3
+set scrolloff=9
+set scroll=2
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
