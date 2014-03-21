@@ -32,3 +32,6 @@ git clone git@github.com:vim-scripts/Align.git
 
 # jsruntime
 git clone git@github.com:michalliu/jsruntime.vim.git
+
+# gruvbox colorscheme
+git clone https://github.com/morhetz/gruvbox.git
