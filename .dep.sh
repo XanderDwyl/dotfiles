@@ -35,3 +35,6 @@ git clone git@github.com:michalliu/jsruntime.vim.git
 
 # gruvbox colorscheme
 git clone https://github.com/morhetz/gruvbox.git
+
+# accelerated-jk
+git clone https://github.com/rhysd/accelerated-jk.git
