@@ -38,3 +38,6 @@ git clone https://github.com/morhetz/gruvbox.git
 
 # accelerated-jk
 git clone https://github.com/rhysd/accelerated-jk.git
+
+# kolors
+git clone https://github.com/zeis/vim-kolor.git
