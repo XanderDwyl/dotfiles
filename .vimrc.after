@@ -36,7 +36,7 @@ map k gk
 map <space> /
 map <c-space> ?
 " Use spaces instead of tabs
-set expandtab
+set noxpandtab
 " Be smart when using tabs ;)
 set smarttab
 " 1 tab == 4 spaces
