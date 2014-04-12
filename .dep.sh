@@ -41,3 +41,9 @@ git clone https://github.com/rhysd/accelerated-jk.git
 
 # kolors
 git clone https://github.com/zeis/vim-kolor.git
+
+# hemisu colorscheme
+git clone https://github.com/noahfrederick/vim-hemisu.git
+
+# tutticolori from Espresso app
+git clone https://github.com/vim-scripts/TuttiColori-Colorscheme.git

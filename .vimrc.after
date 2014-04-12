@@ -26,6 +26,7 @@ set noeol
 " let ; be :
 nnoremap ; :
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
+set viminfo=
 set nobackup
 set nowb
 set noswapfile
