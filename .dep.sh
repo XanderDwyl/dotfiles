@@ -10,10 +10,12 @@ chmod +x ~/.bin/z/z.sh
 cd ~/
 curl -Lo- https://bit.ly/janus-bootstrap | bash
 
-# add powerline
 mkdir -p ~/.janus
 cd ~/.janus
-git clone https://github.com/Lokaltog/vim-powerline.git
+
+# disabling powerline for now
+#
+# git clone https://github.com/Lokaltog/vim-powerline.git
 
 # vim-jade
 git clone git://github.com/digitaltoad/vim-jade.git
