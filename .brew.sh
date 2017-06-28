@@ -25,8 +25,8 @@ brew install wget --enable-iri
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
-brew tap josegonzalez/homebrew-php
-brew install php55
+#brew tap josegonzalez/homebrew-php
+#brew install php55
 
 # These two formulae didn’t work well last time I tried them:
 #brew install homebrew/dupes/vim
@@ -45,6 +45,7 @@ brew install rename
 brew install tree
 brew install webkit2png
 brew install zopfli
+brew install hub
 
 brew tap homebrew/versions
 #brew install lua52
@@ -62,15 +63,15 @@ installcask google-chrome
 installcask google-chrome-canary
 installcask imagealpha
 installcask imageoptim
-installcask iterm2
+#installcask iterm2
 #installcask macvim
 #installcask miro-video-converter
-installcask sublime-text
+#installcask sublime-text
 installcask the-unarchiver
-#installcask tor-browser
-#installcask transmission
+##installcask tor-browser
+installcask transmission
 #installcask ukelele
-installcask virtualbox
+#installcask virtualbox
 #installcask vlc
 
 # Remove outdated versions from the cellar
