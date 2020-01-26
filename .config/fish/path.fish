@@ -31,6 +31,6 @@ for entry in (string split \n $paths)
 end
 
 # GO
-set PA $PA "/Users/dennismuensterer/.go/bin"
+set PA $PA "/Users/xanderdwyl/.go/bin"
 
 set --export PATH $PA

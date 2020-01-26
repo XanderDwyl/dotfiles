@@ -213,6 +213,6 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 [user]
-	name = Dennis Muensterer
-	email = dennismuensterer@gmail.com
-	signingkey = 0xDB6E00827839C2D6
+	name = Alexjander Bacalso
+	email = janderbacalso@gmail.com
+	signingkey = 30EDE88E765AD2FC

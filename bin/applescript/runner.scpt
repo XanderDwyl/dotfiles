@@ -3,7 +3,7 @@
 ---
 
 -- set path to script folder
-set _Path to ("/Users/dennismuensterer/bin/applescript")
+set _Path to ("/Users/xanderdwyl/bin/applescript")
 
 set scriptInput to text returned of (display dialog "Enter name of script to run" default answer "" buttons "OK" default button "OK")
 if scriptInput is equal to "" then

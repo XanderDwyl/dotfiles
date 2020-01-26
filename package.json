@@ -12,8 +12,8 @@
     "macos": "./setup/macos.sh",
     "setup": "./setup/init.sh; ./setup/brew.sh; ./setup/bootstrap.sh"
   },
-  "repository": "https://github.com/dnnsmnstrr/dotfiles.git",
-  "homepage": "https://muensterer.tech/dotfiles",
-  "author": "Dennis Muensterer <dennismuensterer@gmail.com>",
+  "repository": "",
+  "homepage": "",
+  "author": "Alexjander Bacalso <janderbacalso@gmail.com>",
   "license": "MIT"
 }
